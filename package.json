@@ -1,0 +1,23 @@
+{
+  "name": "spotify-cover-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.6.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "p5": "0.9.0"
+  },
+  "keywords": [
+    "p5js",
+    "typescript"
+  ]
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify playlist cover generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+    <script src="src/script.ts" type="module"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Spotify playlist cover generator</h1>
+      <p>Submit playlist URL below</p>
+      <form action="" id="playListForm">
+        <input type="text" id="playlistLink">
+        <input type="submit"> 
+      </form>
+      <h2 id="playlistName"></h2>
+      <div id="playlistFlex">
+        <span id="playlistInfo"></span>
+        <span id="playlistCover"></span>
+      </div>
+      <div id="saveButton"></div>
+    </div>
+  </body>
+</html>
